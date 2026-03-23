@@ -7,19 +7,21 @@ This repository is the **Work Track 3D** project: a customized CAD/CAM workspace
 - **Display name:** Work Track 3D  
 - **Suggested remote name (GitHub):** `work-track-3d` or `WorkTrack3D` (no spaces in the URL)
 
-## Create the remote (GitHub)
+## GitHub remote
 
-1. On GitHub: **New repository** → name it (e.g. `work-track-3d`) → create **without** adding a README (this tree already has one).
-2. In this folder, add your remote and push:
+- **Owner:** [jacobrrough](https://github.com/jacobrrough)
+- **Repository URL:** https://github.com/jacobrrough/work-track-3d
+
+The local repo is already configured with:
+
+`git remote add origin https://github.com/jacobrrough/work-track-3d.git`
+
+After you **create** the empty repository `work-track-3d` on GitHub (no README/license), run:
 
 ```powershell
 cd "c:\Users\jrrou\Downloads\FreeCAD-main\FreeCAD-main"
-git remote add origin https://github.com/YOUR_USERNAME/work-track-3d.git
-git branch -M main
 git push -u origin main
 ```
-
-Replace `YOUR_USERNAME` and the repo name with yours.
 
 ## First-time push note
 
