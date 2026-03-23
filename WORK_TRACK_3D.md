@@ -10,11 +10,11 @@ This repository is the **Work Track 3D** project: a customized CAD/CAM workspace
 ## GitHub remote
 
 - **Owner:** [jacobrrough](https://github.com/jacobrrough)
-- **Repository URL:** https://github.com/jacobrrough/work-track-3d
+- **Repository URL:** https://github.com/jacobrrough/Work-Track-3D
 
-The local repo is already configured with:
+The local `origin` remote should be:
 
-`git remote add origin https://github.com/jacobrrough/work-track-3d.git`
+`https://github.com/jacobrrough/Work-Track-3D.git`
 
 After you **create** the empty repository `work-track-3d` on GitHub (no README/license), run:
 
